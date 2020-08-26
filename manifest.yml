@@ -1,0 +1,10 @@
+---
+applications:
+- name: kimriyoon-egovadmin
+  memory: 512M
+  host: kimriyoon-egovadmin
+  domain: paas-ta.org
+  services:
+  - kimriyoon-egov-db
+  instances: 1
+  disk_quota: 512M
